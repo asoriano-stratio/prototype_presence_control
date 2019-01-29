@@ -1,2 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 Sera borrado data/.ipynb_checkpoints/
+/data
+Sera borrado __pycache__/RecognizedPerson.cpython-36.pyc
+Sera borrado __pycache__/people_db.cpython-36.pyc
+Sera borrado __pycache__/people_tracker.cpython-36.pyc
