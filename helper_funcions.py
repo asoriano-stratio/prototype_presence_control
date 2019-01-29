@@ -281,7 +281,6 @@ def save_people_images_in_area(path, f, n_frame, area, locations, images, embedd
 def image_equalization_clahe(clahe, frame):
     img_yuv = cv2.cvtColor(frame, cv2.COLOR_BGR2YUV)
     img_yuv[:, :, 0] = clahe.apply(img_yuv[:, :, 0])
-    cv2.cvtColor(img_yuv, cv2.COLOR_YUV2RGB)
 
     return cv2.cvtColor(img_yuv, cv2.COLOR_YUV2BGR)
 
